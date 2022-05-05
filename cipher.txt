@@ -1,0 +1,19 @@
+
+Starting Phrase:
+"I Love cryptography"
+
+This cipher will start off by reversing the phrase
+"yhpargotpyrc evol I"
+
+Then we will have a shift of 5 letters
+abcdefghijklmnopqrstuvwxyz
+fghijklmnopqrstuvwxyzabcde
+
+phrase now becomes:
+"dmufwltyudwhjatqn"
+
+yhpargotpyrcevoli
+
+ilovecryptography
+
+

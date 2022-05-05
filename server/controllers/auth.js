@@ -6,7 +6,7 @@ module.exports = {
     login: (req, res) => {
       console.log('Logging In User')
       console.log(req.body)
-      const { username, password } = req.body
+      const { username, password } = req.body 
       for (let i = 0; i < users.length; i++) {
 
         const existing = bcrypt.compareSync(password, users[i].pinHash)
