@@ -2,7 +2,7 @@ const userContainer = document.querySelector('#user-info')
 const loginForm = document.querySelector('#login-form')
 const registerForm = document.querySelector('#register-form')
 
-const baseURL = `http://localhost:4004/api`
+const baseURL = `http://localhost:5501/api`
 
 const login = body => axios.post(`${baseURL}/login`, body).then( res => {
   createUserCard(res.data)
