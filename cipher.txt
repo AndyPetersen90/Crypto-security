@@ -17,3 +17,28 @@ yhpargotpyrcevoli
 ilovecryptography
 
 
+
+Part 3 - Cybersecurity Research
+Research major cybersecurity breaches over the past 20 years and pick 
+one to write a short essay on.
+
+Give an overview of what the breach was and the motivations behind it.
+
+In 2017 Equifax was breached through an application vulnerability on one of their
+websites. This lead to the breach of social security numbers, birthdates, addresses,
+and in some cases driver license numbers and credit card information for roughly
+148 million people.
+
+Explain where the “tech flaws” were, and how hackers were able to breach their system.
+
+It appears the security team failed to patch a vulnerability in "apache struts" even
+after it had been warned and had research conducted. This vulnerability allowed the 
+attackers to have access to their network for several months. 
+
+What has the company done to protect against that vulnerability since?
+
+They focused on improving system monitoring, enhancing the security team's communication
+with the c-suite, change the corporate culture through getting better employees focused
+on cybersecurity.
+
+
