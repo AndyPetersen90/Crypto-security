@@ -16,17 +16,12 @@ module.exports = {
           res.status(200).send(users[i])
           return
         }
-
       }
       res.status(400).send("User not found.")
-      
     },
     register: (req, res) => {
         console.log('Registering User')
-        // console.log(req.body)
-
         const {username, email, firstName, lastName, password} = req.body;
-
         const salt = bcrypt.genSaltSync(5);
         const pinHash = bcrypt.hashSync(password, salt);
 
@@ -37,13 +32,9 @@ module.exports = {
           lastName,
           pinHash
         }
-
         users.push(userInfo);
-
         let passwordReturn = {...userInfo};
-
         delete passwordReturn.pinHash;
-
 
         console.log(users);
         console.log(userInfo);

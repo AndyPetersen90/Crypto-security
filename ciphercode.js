@@ -1,9 +1,7 @@
 
-
-
 const cipher = (str) => {
 
-    let reverse = str.split('').reverse().join('').split(' ').join('');
+    let reverse = str.split('').reverse().join('');
 
     let result = '';
 
@@ -19,7 +17,7 @@ const cipher = (str) => {
     return result
 }
 
-console.log(cipher('i love cryptography'));
+console.log(cipher('ilovecryptography'));
 
 
 const decipher = (ciphered) => {
